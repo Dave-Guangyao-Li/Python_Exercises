@@ -8,6 +8,7 @@ class Timer:
     计算出相隔时间
     停止计时
     '''
+    
     def start(self):
         self.a=time.localtime()
         print('计时开始')
